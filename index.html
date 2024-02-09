@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <form id="loveForm">
+                <input type="text" id="name1" placeholder="Your Name" required>
+                <input type="text" id="name2" placeholder="Your partner's Name" required>
+                <button type="submit">Calculate</button>
+                <button type="reset">Reset</button>
+            </form>
+            <h2 id="lovescore"></h2>
+            <p id="content">Your love score is a reflection of your connection</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        input {
+            margin: 10px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Love Calculator</h1>
+    <form id="loveForm">
+        <input type="text" id="name1" placeholder="Your Name" required>
+        <input type="text" id="name2" placeholder="Your Lover's Name" required>
+        <button type="submit">Calculate</button>
+        <button type="reset">Reset</button>
+    </form>
+    <h2 id="loveScore"></h2>
+    <script>
+        document.getElementById('loveForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name1 = document.getElementById('name1').value;
+            const name2 = document.getElementById('name2').value;
+            if (!name1 || !name2) {
+                alert('Please enter both names.');
+                return;
+            }
+            const loveScore = Math.floor(Math.random() * 101);
+            document.getElementById('loveScore').textContent = `${name1} and ${name2} have a love score of ${loveScore}%!`;
+        });
+        document.getElementById('loveForm').addEventListener('reset', function() {
+            document.getElementById('loveScore').textContent = '';
+        });
+    </script>
+</body>
+</html> -->

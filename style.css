@@ -1,0 +1,54 @@
+/* style it as per love mood */
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: radial-gradient(#ffffff,#fbb7fb, #f962cc, #ff00c8) ;
+}
+.box{
+    width: 30%;
+    min-width: 350px;
+    height: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.3);
+    justify-content: center;
+    text-align: center;
+}
+input{
+    background-color: #f7d5f0;
+    width: 80%;
+    margin: 8px;
+    padding: 10px;
+    border-color: #ff4ed9;
+    border-radius: 10px;
+}
+button{
+    margin: 15px;
+    padding: 18px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fe65e7;
+    font-size:14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+h3{
+    margin-top:0px ;
+}
+p{
+    color:#000000;
+}
